@@ -1,5 +1,8 @@
 {
+  "itemGroup.mechanica.creativeTab": "Mechanica",
+
   "item.mechanica.wrench": "Wrench",
 
-  "itemGroup.mechanica.creativeTab": "Mechanica"
+
+  "block.mechanica.farming_station": "Farming Station"
 }

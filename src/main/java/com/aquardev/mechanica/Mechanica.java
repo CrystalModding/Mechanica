@@ -1,5 +1,6 @@
 package com.aquardev.mechanica;
 
+import com.aquardev.mechanica.block.ModBlocks;
 import com.aquardev.mechanica.item.ModItems;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -31,6 +32,7 @@ public class Mechanica {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
     }
 
